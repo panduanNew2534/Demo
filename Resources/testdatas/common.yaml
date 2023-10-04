@@ -1,0 +1,13 @@
+msgAuthen:
+  error: 
+    incorrect: 'Epic sadface: Username and password do not match any user in this service'
+    userLock: 'Epic sadface: Sorry, this user has been locked out.'
+    userNotExist: 'Epic sadface: Username and password do not match any user in this service'
+
+HomePage:
+  topic: Swag Labs
+  product: Products
+
+LoginPage:
+  Wording:
+    - Swag Labs

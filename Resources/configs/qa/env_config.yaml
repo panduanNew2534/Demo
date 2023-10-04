@@ -1,0 +1,4 @@
+mainURL : https://www.saucedemo.com/
+
+endpoint:
+  homepage: '/inventory.html'

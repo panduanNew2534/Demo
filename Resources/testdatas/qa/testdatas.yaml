@@ -1,0 +1,31 @@
+user:
+  validUser:
+    userName: standard_user
+    password: secret_sauce
+  lockUser:
+    userName: locked_out_user
+    password: secret_sauce
+  problem_user:
+    userName: problem_user
+    password: secret_sauce
+  perfUser:
+    userName: performance_glitch_user
+    password: secret_sauce
+  incorrectLogin:
+    - userName: test
+      password: secret_sauce
+    - userName: standard_user
+      password: abcdefg
+  requiredCheck:
+    - userName: ""
+      password: ""
+      msg: 'Epic sadface: Username is required'
+    - userName: ""
+      password: secret_sauce
+      msg: 'Epic sadface: Username is required'
+    - userName: standard_user
+      password: ""
+      msg: 'Epic sadface: Password is required'
+  notExistUser:
+    userName: no_user
+    password: no_sauce
