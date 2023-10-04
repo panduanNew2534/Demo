@@ -21,7 +21,7 @@ FOLDERNAME=${PWD##*/}
 export FOLDERNAME
 
 # Set test ENV
-RESULT_FOLDER="results/$ENV"
+RESULT_FOLDER="result/$ENV"
 pip install -r requirements.txt
 
 rm -rf $RESULT_FOLDER
