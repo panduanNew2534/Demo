@@ -1,0 +1,16 @@
+LocatorLoginPage:
+  username: id=user-name
+  password: id=password
+  btnLogin: id=login-button
+  xpathTopic: //div[@class='login_logo']
+  errormsg: //*[@data-test="error"]
+
+LocatorHomePage:
+  xpathTopic: //div[@class='app_logo']
+  xpathProductTopic: //*[@class='title']
+  allProduct: //*[@class='inventory_item']
+  singleProduct: //*[@id="item_{{id}}_title_link"]/div
+
+HambergerMenu:
+  hamberger: id=react-burger-menu-btn
+  logoutbtn: id=logout_sidebar_link
